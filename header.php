@@ -248,10 +248,12 @@
 					</div>
 					<div class="header_soc_search clearfix">
 						<div class="header_search">
+							<!--
 							<form class="search" action="<?php echo home_url(); ?>/" method="get">
 								<button class="button_search"></button>
 								<input name="s" id="s" type="text" value="<?php echo ($s ? $s : __('Search', 'Aqua').'...'); ?>" onclick="this.value = '';">
 							</form>
+							-->
 						</div>
 						
 				<?php if(is_array($header_icons = ot_get_option('header_icons'))){
