@@ -246,26 +246,29 @@
 						<div class="header_mail"><?php echo $header_email;?></div>
 					<?php }  ?>
 					</div>
+							<!--
 					<div class="header_soc_search clearfix">
 						<div class="header_search">
-							<!--
 							<form class="search" action="<?php echo home_url(); ?>/" method="get">
 								<button class="button_search"></button>
 								<input name="s" id="s" type="text" value="<?php echo ($s ? $s : __('Search', 'Aqua').'...'); ?>" onclick="this.value = '';">
 							</form>
-							-->
 						</div>
 						
-				<?php if(is_array($header_icons = ot_get_option('header_icons'))){
+				<?php 
+						/**
+						if(is_array($header_icons = ot_get_option('header_icons'))){
 							$header_icons = array_reverse($header_icons);							
 							foreach($header_icons as $header_icon){
 								echo "<a target='_blank' href='". ( $header_icon['icons_service']!='rss' ? $header_icon['icons_url'] : get_bloginfo('rss2_url') )."' class='header_soc_". $header_icon['icons_service'] ."' title='". $header_icon['title'] ."'>". $header_icon['icons_service'] ."</a>";			
 							}
 						}
+						**/
 				?>
 						
 
-					</div>				
+					</div>	
+							-->			
 				</div>
 			</div>
 		</div>
