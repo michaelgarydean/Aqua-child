@@ -12,9 +12,5 @@ Text Domain: aqua-child
 */
 
 .header_left img {
-    margin: 66px 0 0 0px;
-    margin-top: 66px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    margin: 66px 0 0 0px !important;
 }
