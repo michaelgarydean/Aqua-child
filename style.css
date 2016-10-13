@@ -14,3 +14,12 @@ Text Domain: aqua-child
 .header_left img {
     margin: 66px 0 0 0px !important;
 }
+.header_right {
+    position: relative;
+}
+
+.header_contacts {
+    clear: both;
+    position:fixed;
+    bottom:0;
+}
