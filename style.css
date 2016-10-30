@@ -15,13 +15,8 @@ Text Domain: aqua-child
     margin: 66px 0 0 0px !important;
 }
 .header_email {
-    position: absolute;
-    bottom: 0;
 }
 .header_phone {
-    position: absolute;
-    bottom: 0;
 }
-.header_contacts {
-    position: relative;
+.header_contacts {;
 }
