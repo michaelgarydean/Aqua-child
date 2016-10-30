@@ -239,12 +239,14 @@
 			<div class="eight columns">
 				<div class="header_right">
 					<div class="header_contacts clearfix">
-					<?php if($header_phone = ot_get_option('header_phone')){?>
-						<div class="header_phone"><?php echo $header_phone;?></div>
-					<?php }  ?>
-					<?php if($header_email = ot_get_option('header_email')){?>
-						<div class="header_mail"><?php echo $header_email;?></div>
-					<?php }  ?>
+						<div class="header_wrap">
+						<?php if($header_phone = ot_get_option('header_phone')){?>
+							<div class="header_phone"><?php echo $header_phone;?></div>
+						<?php }  ?>
+						<?php if($header_email = ot_get_option('header_email')){?>
+							<div class="header_mail"><?php echo $header_email;?></div>
+						<?php }  ?>
+						</div>
 					</div>
 							<!--
 					<div class="header_soc_search clearfix">
