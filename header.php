@@ -240,6 +240,8 @@
 				<div class="header_right">
 					<div class="header_contacts clearfix">
 						<div class="header_wrap">
+							
+						<div class="header_bottom">
 						<?php if($header_phone = ot_get_option('header_phone')){?>
 							<div class="header_phone"><?php echo $header_phone;?></div>
 						<?php }  ?>
