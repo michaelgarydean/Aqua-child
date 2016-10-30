@@ -14,7 +14,8 @@ Text Domain: aqua-child
 .header_left img {
     margin: 66px 0 0 0px !important;
 }
-.header_right {
+.header_phone, .header_email {
+    clear: left;
 }
 
 .header_contacts {
