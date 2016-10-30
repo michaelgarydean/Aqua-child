@@ -12,7 +12,7 @@ Text Domain: aqua-child
 */
 
 .header_left img {
-    margin: 66px 0 0 0px !important;
+    margin: 66px 0 20px 0px !important;
 }
 .header_mail {
     clear: both;
@@ -21,4 +21,9 @@ Text Domain: aqua-child
 }
 .header_contacts {
     margin: 0px 0px 0px 46px;
+}
+
+.header_wrap {
+    height: 117px;
+    margin-bottom: 20px;
 }
