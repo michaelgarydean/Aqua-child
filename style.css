@@ -15,10 +15,10 @@ Text Domain: aqua-child
     margin: 66px 0 0 0px !important;
 }
 .header_email {
-    clear: right;
+    clear: both;
 }
 .header_phone {
-    clear: right;
+    clear: both;
 }
 .header_contacts {
 }
