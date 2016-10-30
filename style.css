@@ -14,16 +14,29 @@ Text Domain: aqua-child
 .header_left img {
     margin: 66px 0 20px 0px !important;
 }
+
+/* push the email to a new line */
 .header_mail {
     clear: both;
 }
 .header_phone {
 }
+
+/* change the margins in order to place the header_wrap div */
 .header_contacts {
     margin: 0px 0px 0px 46px;
 }
 
+/* create the wrapper to push contact info to bottom of header */
 .header_wrap {
     height: 117px;
     margin-bottom: 20px;
+    position: relative;
+}
+
+/* position contact info */
+.header_bottom {
+    position: absolute;
+    bottom: 0;
+    width: 460px;
 }
